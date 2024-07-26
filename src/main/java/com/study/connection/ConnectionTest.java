@@ -17,7 +17,7 @@ public class ConnectionTest {
         Statement stmt = null;
 
         try {
-            //STEP 2: Register JDBC driver
+
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
